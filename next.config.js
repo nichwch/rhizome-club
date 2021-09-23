@@ -1,3 +1,8 @@
 module.exports = {
-  reactStrictMode: true,
-}
+	reactStrictMode: true,
+	// !! WARN !!
+	// Dangerously allow production builds to successfully complete even if
+	// your project has type errors.
+	// !! WARN !!
+	ignoreBuildErrors: true,
+};
