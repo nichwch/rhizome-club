@@ -7,7 +7,7 @@ The goal is to try and recreate the feeling of a musical jam session, within a w
 
 The important rules are simple. Don't touch other people's stuff, and don't post anything political or offensive.
 
-**Why next.js?**
+### Why Next.js?
 Next.js' built in routing makes it easy to help mpeople
 
 
