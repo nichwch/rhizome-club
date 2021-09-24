@@ -4,22 +4,50 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
 	return (
-		<div style={{ marginLeft: "auto", marginRight: "auto", width: "600px" }}>
-			<h1>RHIZOME.CLUB</h1>
+		<div
+			style={{
+				marginLeft: "auto",
+				marginRight: "auto",
+				width: "600px",
+			}}
+		>
+			<h1>RHIZOME.WORLD</h1>
 			<i>"Since each of us was several, there was already quite a crowd."</i>
-			<h2>rhizome.club is the online home of the Davis Hypertext Society</h2>
+			<h2>rhizome.world is the online home of the Davis Hypertext Society</h2>
 			<p>The Davis Hypertext Society does 2 things.</p>
-			<h3>1. Website review (THEORY)</h3>
+			<h3>1. THEORY: Website review</h3>
 			<p>
 				Every week, members pick a cool website (a site with extraordinarily
 				cool design/animations/content/vibes)by voting. We then meet up as a
 				group to discuss/critique the website, and look under the hood to see
 				how it's made.
 			</p>
-			<h3>2. Maintain rhizome.club (PRACTICE)</h3>
+			<h3>2. PRACTICE: Maintain rhizome.world</h3>
 			<p>
-				The current site is a loose amalgation of individual web pages submitted
-				by members. The site is open source, and
+				The site you are looking at is a loose amalgamation of individual web
+				pages submitted by members. The site is open source. Individuals are
+				encouraged to submit their own pages to be added to the site, and are
+				free to link to other peoples pages as they'd like.
+			</p>
+			<p>
+				The idea is to provide a space for people to experiment with one-off web
+				concepts. Make a site dedicated to a three.js experiment, a new layout
+				you want to try, a miniature game, a new UI element you've been toying
+				with, for your musical/artistic/film project, just to introduce yourself
+				- anything.
+				<p>
+					The goal is to try and recreate the feeling of a musical jam session,
+					within a website.
+				</p>
+			</p>
+			<p>
+				The important rules are simple. Don't touch other people's stuff, and
+				don't post anything political or offensive.
+			</p>
+			<p>
+				We have some other technical conventions we follow, just to make sure
+				people don't step on each other's toes. These can be found in the README
+				in the github repo.
 			</p>
 		</div>
 	);
