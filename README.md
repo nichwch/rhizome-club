@@ -1,3 +1,18 @@
+### What is this?
+This is a collaborative website, built with Next.js. 
+
+The idea is to provide a space for people to experiment with one-off web concepts. Make a site dedicated to a three.js experiment, a new layout you want to try, a miniature game, a new UI element you've been toying with, for your musical/artistic/literary/film project, just to introduce yourself - anything.
+The goal is to try and recreate the feeling of a musical jam session, within a website.
+
+
+The important rules are simple. Don't touch other people's stuff, and don't post anything political or offensive.
+
+**Why next.js?**
+Next.js' built in routing makes it easy to help mpeople
+
+
+### Some documentation on Next.js
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
