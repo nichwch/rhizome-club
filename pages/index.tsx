@@ -40,6 +40,15 @@ export default function Home() {
 					within a website.
 				</p>
 			</p>
+			<img
+				src="/rhizome.jpg"
+				style={{
+					width: "100%",
+					// marginTop: "20px",
+					// marginBottom: "20px",
+					border: "1px solid grey",
+				}}
+			/>
 			<p>
 				The important rules are simple. Don't touch other people's stuff, and
 				don't post anything political or offensive.
@@ -55,7 +64,7 @@ export default function Home() {
 			<form
 				style={{
 					textAlign: "center",
-					marginBottom: "20px",
+					marginBottom: "80px",
 				}}
 				action="https://tinyletter.com/rhizome"
 				method="post"
