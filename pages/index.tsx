@@ -35,7 +35,7 @@ export default function Home() {
 				you want to try, a miniature game, a new UI element you've been toying
 				with, for your musical/artistic/film project, just to introduce yourself
 				- anything.
-				<p>
+				<p style={{ fontWeight: "bold" }}>
 					The goal is to try and recreate the feeling of a musical jam session,
 					within a website.
 				</p>
@@ -49,6 +49,49 @@ export default function Home() {
 				people don't step on each other's toes. These can be found in the README
 				in the github repo.
 			</p>
+			<p style={{ textAlign: "center" }}>
+				=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+			</p>
+			<form
+				style={{
+					textAlign: "center",
+					marginBottom: "20px",
+				}}
+				action="https://tinyletter.com/rhizome"
+				method="post"
+				target="popupwindow"
+				onSubmit={() => {
+					window.open(
+						"https://tinyletter.com/rhizome",
+						"popupwindow",
+						"scrollbars=yes,width=800,height=600"
+					);
+					return true;
+				}}
+			>
+				<h2>
+					<label htmlFor="tlemail">Sign up for email updates</label>
+				</h2>
+				<p>
+					Join our mailing list to receive updates on when the Davis Hypertext
+					Society meets.
+				</p>
+				<p>
+					<input
+						type="text"
+						style={{ width: "140px" }}
+						name="email"
+						id="tlemail"
+					/>
+				</p>
+				<input type="hidden" value="1" name="embed" />
+				<input type="submit" value="Subscribe" />
+				<p>
+					{/* <a href="https://tinyletter.com" target="_blank">
+						powered by TinyLetter
+					</a> */}
+				</p>
+			</form>
 		</div>
 	);
 }
