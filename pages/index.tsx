@@ -58,12 +58,8 @@ export default function Home() {
 				people don't step on each other's toes. These can be found in the README
 				in the github repo.
 			</p>
-			<p style={{ textAlign: "center" }}>
-				=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-			</p>
 			<form
 				style={{
-					textAlign: "center",
 					marginBottom: "80px",
 				}}
 				action="https://tinyletter.com/rhizome"
