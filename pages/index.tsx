@@ -22,7 +22,10 @@ export default function Home() {
 				group to discuss/critique the website, and look under the hood to see
 				how it's made.
 			</p>
-			<h3>2. PRACTICE: Maintain rhizome.world</h3>
+			<h3>
+				2. PRACTICE: Maintain{" "}
+				<a href="https://github.com/nichwch/rhizome-club">rhizome.world</a>
+			</h3>
 			<p>
 				The site you are looking at is a loose amalgamation of individual web
 				pages submitted by members. The site is open source. Individuals are
